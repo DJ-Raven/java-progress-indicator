@@ -9,11 +9,10 @@ import java.awt.Component;
  */
 public class Test extends javax.swing.JFrame {
 
-    private final Component[] components = new Component[]{new PanelTest(1), new PanelTest(2), new PanelTest(3), new PanelTest(4), new PanelTest(5), new PanelTest(6)};
-
     public Test() {
         initComponents();
         getContentPane().setBackground(new Color(250, 250, 250));
+        Component[] components = new Component[]{new PanelTest(1), new PanelTest(2), new PanelTest(3), new PanelTest(4), new PanelTest(5), new PanelTest(6)};
         panelSlider.setSliderComponent(components);
         progressIndicator.initSlider(panelSlider);
     }
@@ -35,6 +34,7 @@ public class Test extends javax.swing.JFrame {
             public Object getElementAt(int i) { return strings[i]; }
         });
         progressIndicator.setProgress(0.0F);
+        progressIndicator.setProgressColorGradient(new java.awt.Color(222, 18, 18));
 
         panelSlider.setBackground(new java.awt.Color(250, 250, 250));
 

@@ -69,6 +69,9 @@
           </StringArray>
         </Property>
         <Property name="progress" type="float" value="0.0"/>
+        <Property name="progressColorGradient" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="12" green="12" red="de" type="rgb"/>
+        </Property>
       </Properties>
     </Container>
     <Container class="raven.progressindicator.PanelSlider" name="panelSlider">
