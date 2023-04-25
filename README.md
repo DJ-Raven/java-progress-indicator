@@ -26,5 +26,4 @@ progressIndicator.next();
 - TimmingFramework-0.55.jar
 - miglayout-4.0.jar
 ### Screenshot
-
-![s](https://user-images.githubusercontent.com/58245926/234339029-223c0fe7-2c49-4657-9852-b604b5cd4b36.png)
+![2023-04-24_231011](https://user-images.githubusercontent.com/58245926/234370542-08df766e-ffb6-4432-a5f6-541f584c622c.png)
